@@ -1,4 +1,4 @@
-This repository contains all the code necessary to reproduce our article "The default mode network and behavior: A model to analyse psycho-physiological interactions in resting state fMRI" (In process of revision)
+This repository contains all the code necessary to reproduce our article "The default mode network and behavior: A model to analyse psycho-physiological interactions in resting state fMRI" (in process of revision)
 
 # Installation
 
@@ -12,7 +12,7 @@ cd psycho-physiological-rsfmri
 
 # Input data
 
-All the input data is publicly available in the Mind-Brain-Body page from the Max Plank Institute. You will need the following data to replicate our results [Link to the website](https://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON.html). You will need the following data
+All the input data is publicly available on the Mind-Brain-Body page from the Max Plank Institute. You will need the following data to replicate our results [Link to the website](https://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON.html):
 
 - Preprocessed fMRI volumes: [Link to download](https://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON/downloads/download_MRI.html)
 - Behavioral variables: [Link to download](https://fcp-indi.s3.amazonaws.com/data/Projects/INDI/MPI-LEMON/Compressed_tar/Behavioural_Data_MPILMBB_LEMON.tar.gz)
@@ -26,4 +26,4 @@ All the input data is publicly available in the Mind-Brain-Body page from the Ma
 
 # Outputs
 
-This script can take several hours or even days to execute. You can follow the execution in the logfile created in your "venv" folder. The most part of the processes which take long time are cached in the CACHE_FOLDER specified in the .env file. In the results file you will find all the statistics used in the article, as well as the Nifti volumes containing the CanICA and DictionaryLearn results
+This script can take several hours or even days to execute. You can follow the execution in the logfile created in your "venv" folder. Most of the processes that take a long time are cached in the CACHE_FOLDER specified in the .env file. In the results file you will find all the statistics used in the article, as well as the NIfTI volumes containing the CanICA and DictionaryLearn results
