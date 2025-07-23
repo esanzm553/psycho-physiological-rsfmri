@@ -1,0 +1,8 @@
+nilearn==0.10.2
+nibabel==5.1.0
+scipy==1.11.4
+tqdm
+matplotlib
+openpyxl
+statsmodels==0.14.4
+python-dotenv==1.1.1

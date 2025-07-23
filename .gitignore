@@ -1,0 +1,5 @@
+venv/
+data/
+notebooks
+__pycache__
+nohup.out
